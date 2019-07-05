@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
-import {AppContext} from './AppProvider'
+import {AppContext} from './AppProvider';
 
 const Logo = styled.div`
     font-size: 1.5em;
@@ -17,6 +17,7 @@ const ControlButtonElem = styled.div`
     ${props => props.active && css`
         text-shadow: 0px 0px 60px #03ff03;
         color: green;
+        
     `}
 `;
 
