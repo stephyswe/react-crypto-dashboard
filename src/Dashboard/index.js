@@ -1,8 +1,16 @@
 import React from 'react';
 import Page from '../Shared/Page';
+import PriceGrid from './PriceGrid';
 
 export default function() {
     return <Page name="dashboard">
-        I am dashboard
+        <PriceGrid/>
     </Page>
 }
+
+/*
+
+const numberFormat = number => {
+    return +(number + '').slice(0, 7);
+};
+ */
